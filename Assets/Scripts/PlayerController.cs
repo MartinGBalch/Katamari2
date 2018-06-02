@@ -6,7 +6,7 @@ public class PlayerController : MonoBehaviour
 {
 
     public float speed;
-    Camera mainCam;
+  
     Rigidbody rbody;
 
 	// Use this for initialization
@@ -27,6 +27,5 @@ public class PlayerController : MonoBehaviour
     void GetComponents()
     {
         rbody = GetComponent<Rigidbody>();
-        mainCam = FindObjectOfType<Camera>();
     }
 }
