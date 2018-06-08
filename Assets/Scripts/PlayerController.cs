@@ -8,7 +8,7 @@ public class PlayerController : MonoBehaviour
     public float speed;
   
     Rigidbody rbody;
-
+   
 	// Use this for initialization
 	void Start () { GetComponents(); }
 	
